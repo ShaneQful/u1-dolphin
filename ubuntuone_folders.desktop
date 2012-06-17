@@ -14,10 +14,32 @@ X-KDE-Priority=TopLevel
 
 [Desktop Action synchronise]
 Name=Synchronize This Folder
+Name[en]=Synchronize This Folder
+Name[de]=Diesen Ordner Synchronisieren
+Name[ga]=Sioncrónaigh Seo Fillteán
+Name[hi]=यह  फ़ोल्डर सिंक्रनाइज़ करें
+Name[fi]=Synkronisoi tämä kansio
+Name[es]=Sincronizar esta carpeta
+Name[la]=Sinhronizēt šo mapi
+Name[nn]=Synkroniser denne mappen
+Name[bg]=Синхронизирай тази папка
+Name[nl]=Synchroniseer deze map
+Name[ro]=Sincronizează Acest Dosar
 Exec=u1sdtool --create-folder="%f"
 #Icon=edit-copy
 
 [Desktop Action stopsynchronise]
 Name=Stop Synchronizing This Folder
+Name[en]=Stop Synchronizing This Folder
+Name[de]=Diesen Ordner nicht mehr Synchronisieren
+Name[ga]=Bain as Ubuntu Amháin
+Name[hi]=इस फ़ोल्डर सिंक्रनाइज़ करना बंद करो
+Name[fi]=Lopeta kansion synkronisointi
+Name[es]=Detener sincronización de esta carpeta
+Name[la]=Pārstāt sinhronizēt šo mapi
+Name[nn]=Stopp synkronisering av denne mappen
+Name[bg]=Спри синхронизирането на тази папка
+Name[nl]=Stop met deze map te synchroniseren
+Name[ro]=Opreşte Sincronizarea Acestui Dosar
 Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
 #Icon=go-jump
