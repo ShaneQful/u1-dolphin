@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=synchronise;stopsynchronise;
+X-KDE-Submenu=Ubuntu One
+X-KDE-StartupNotify=false
+X-KDE-Priority=TopLevel
+
+[Desktop Action synchronise]
+Name=Synchronize This Folder
+Exec=u1sdtool --create-folder="%f"
+#Icon=edit-copy
+
+[Desktop Action stopsynchronise]
+Name=Stop Synchronizing This Folder
+Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
+#Icon=go-jump

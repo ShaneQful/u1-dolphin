@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;
+Actions=publish;unpublish;
+X-KDE-Submenu=Ubuntu One
+X-KDE-StartupNotify=false
+X-KDE-Priority=TopLevel
+
+[Desktop Action publish]
+Name=Publish and Copy Web Link
+Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
+Icon=edit-copy
+
+[Desktop Action unpublish]
+Name=Stop Publishing
+Exec=u1sdtool --unpublish-file="%f"
+Icon=go-jump
