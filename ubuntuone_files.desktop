@@ -25,6 +25,12 @@ Name[nn]=Offetliggjør og kopier lenke
 Name[bg]=Публикувай и копирай уеб линк
 Name[nl]=Publiceer en kopieër web link
 Name[ro]=Publică şi Copiază Adresa de Internet
+Name[el]=Δημοσίευση στο ίντερνετ και αντιγραφή του υπερσυνδέσμου
+Name[da]=Offentliggør og kopier web link
+Name[fr]=Publier sur le net et copier lien
+Name[pt]=Enviar para a Internet e copiar endereço
+Name[ca]=Publicar i Copiar Enllaç Web
+Name[sv]=Publicera och kopiera webblänk
 Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
 Icon=edit-copy
 
@@ -41,5 +47,11 @@ Name[nn]=Stopp offentliggjøring
 Name[bg]=Спри публикуването
 Name[nl]=Stop met publiceren
 Name[ro]=Opreşte Publicarea
+Name[el]=Διακοπή συγχρονισμού
+Name[da]=Stop offentliggørelse
+Name[fr]=Arrêter la publication sur le net
+Name[pt]=Parar envio para a Internet
+Name[ca]=Deixa de Publicar
+Name[sv]=Sluta publicera
 Exec=u1sdtool --unpublish-file="%f"
 Icon=go-jump

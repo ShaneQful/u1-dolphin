@@ -25,6 +25,12 @@ Name[nn]=Synkroniser denne mappen
 Name[bg]=Синхронизирай тази папка
 Name[nl]=Synchroniseer deze map
 Name[ro]=Sincronizează Acest Dosar
+Name[el]=Συγχρονισμός αυτού του φακέλου
+Name[da]=Synkronisér denne mappe
+Name[fr]=Synchroniser ce dossier
+Name[pt]=Sincronizar pasta
+Name[ca]=Sincronitza Aquesta Carpeta
+Name[sv]=Synkronisera denna mapp
 Exec=u1sdtool --create-folder="%f"
 #Icon=edit-copy
 
@@ -41,5 +47,11 @@ Name[nn]=Stopp synkronisering av denne mappen
 Name[bg]=Спри синхронизирането на тази папка
 Name[nl]=Stop met deze map te synchroniseren
 Name[ro]=Opreşte Sincronizarea Acestui Dosar
+Name[el]=Παύση συγχρονισμού αυτού του φακέλου
+Name[da]=Stop Synkronisering Af Denne Mappe
+Name[fr]=Arrêter la synchronisation de ce dossier
+Name[pt]=Parar sincronização da pasta
+Name[ca]=Deixa de Sincronitzar Aquesta Carpeta
+Name[sv]=Sluta synkronisera denna mapp
 Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
 #Icon=go-jump
