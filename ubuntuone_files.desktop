@@ -31,6 +31,8 @@ Name[fr]=Publier sur le net et copier lien
 Name[pt]=Enviar para a Internet e copiar endereço
 Name[ca]=Publicar i Copiar Enllaç Web
 Name[sv]=Publicera och kopiera webblänk
+Name[ar]=نشر ونسخ الرابط
+Name[pl]=Opublikuj i skopiuj link do strony
 Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
 Icon=edit-copy
 
@@ -53,5 +55,7 @@ Name[fr]=Arrêter la publication sur le net
 Name[pt]=Parar envio para a Internet
 Name[ca]=Deixa de Publicar
 Name[sv]=Sluta publicera
+Name[ar]=توقيف النشر
+Name[pl]=Zatrzymaj publikację
 Exec=u1sdtool --unpublish-file="%f"
 Icon=go-jump

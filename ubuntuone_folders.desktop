@@ -31,6 +31,8 @@ Name[fr]=Synchroniser ce dossier
 Name[pt]=Sincronizar pasta
 Name[ca]=Sincronitza Aquesta Carpeta
 Name[sv]=Synkronisera denna mapp
+Name[ar]=تزامن هذا المجلد
+Name[pl]=Synchronizuj ten folder
 Exec=u1sdtool --create-folder="%f"
 #Icon=edit-copy
 
@@ -53,5 +55,7 @@ Name[fr]=Arrêter la synchronisation de ce dossier
 Name[pt]=Parar sincronização da pasta
 Name[ca]=Deixa de Sincronitzar Aquesta Carpeta
 Name[sv]=Sluta synkronisera denna mapp
+Name[ar]=توقيف تزامن هذا المجلد
+Name[pl]=zatrzymaj synchronizację tego folderu
 Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
 #Icon=go-jump
