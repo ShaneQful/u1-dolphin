@@ -1,3 +1,5 @@
 #!/bin/sh
 
-rm -rf ~/.kde/share/kde4/services/ServiceMenus/Ubuntu\ One/
+path="$(kde4-config --path services)"
+spath="$(echo ${path%:*})"
+rm -rf "$spath"ServiceMenus/Ubuntu\ One/
