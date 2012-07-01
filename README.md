@@ -6,6 +6,7 @@ Ubuntu One KDE Dolphin Plugin
 To install
 
 sudo apt-get install ruby
+sudo apt-get install ubuntuone-control-panel-qt
 
 then place all the files in
 
