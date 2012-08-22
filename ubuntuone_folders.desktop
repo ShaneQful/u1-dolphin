@@ -59,5 +59,5 @@ Name[sv]=Sluta synkronisera denna mapp
 Name[ar]=توقيف تزامن هذا المجلد
 Name[pl]=zatrzymaj synchronizację tego folderu
 Name[hr]=Zaustavi sinkroniziranje ove mape
-Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
+Exec=ruby ~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
 #Icon=go-jump

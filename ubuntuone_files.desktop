@@ -34,7 +34,7 @@ Name[sv]=Publicera och kopiera webblänk
 Name[ar]=نشر ونسخ الرابط
 Name[pl]=Opublikuj i skopiuj link do strony
 Name[hr]=Objavi i kopiraj poveznicu
-Exec=~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
+Exec=ruby ~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
 Icon=edit-copy
 
 [Desktop Action unpublish]
