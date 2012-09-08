@@ -1,0 +1,63 @@
+# Copyright (c) 2012 Shane Quigley
+# 
+# This software is MIT licensed see link for details
+# http://www.opensource.org/licenses/MIT
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;
+Actions=publish;unpublish;
+X-KDE-Submenu=Ubuntu One
+X-KDE-StartupNotify=false
+X-KDE-Priority=TopLevel
+
+[Desktop Action publish]
+Name=Publish and Copy Web Link
+Name[en]=Publish and Copy Web Link
+Name[de]=Veröffentlichen und Web-Link kopieren
+Name[ga]=Fhoilsiú agus Cóipeáil Nasc Gréasáin
+Name[hi]=प्रकाशित करें और वेब लिंक की प्रतिलिपि बनाएँ
+Name[fi]=Julkaise ja kopioi linkki
+Name[es]=Compartir y copiar el enlace en web
+Name[la]=Publicēt un kopēt tīkla saiti
+Name[nn]=Offetliggjør og kopier lenke
+Name[bg]=Публикувай и копирай уеб линк
+Name[nl]=Publiceer en kopieër web link
+Name[ro]=Publică şi Copiază Adresa de Internet
+Name[el]=Δημοσίευση στο ίντερνετ και αντιγραφή του υπερσυνδέσμου
+Name[da]=Offentliggør og kopier web link
+Name[fr]=Publier sur le net et copier lien
+Name[pt]=Enviar para a Internet e copiar endereço
+Name[ca]=Publicar i Copiar Enllaç Web
+Name[sv]=Publicera och kopiera webblänk
+Name[ar]=نشر ونسخ الرابط
+Name[pl]=Opublikuj i skopiuj link do strony
+Name[hr]=Objavi i kopiraj poveznicu
+Exec=ruby ~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
+Icon=edit-copy
+
+[Desktop Action unpublish]
+Name=Stop Publishing
+Name[en]=Stop Publishing
+Name[de]=Nicht mehr veröffentlichen
+Name[ga]=Stop Foilsitheoireachta
+Name[hi]=प्रकाशन रोकें
+Name[fi]=Lopeta julkaiseminen
+Name[es]=Dejar de compartir
+Name[la]=Pārstāt publicēt
+Name[nn]=Stopp offentliggjøring
+Name[bg]=Спри публикуването
+Name[nl]=Stop met publiceren
+Name[ro]=Opreşte Publicarea
+Name[el]=Διακοπή συγχρονισμού
+Name[da]=Stop offentliggørelse
+Name[fr]=Arrêter la publication sur le net
+Name[pt]=Parar envio para a Internet
+Name[ca]=Deixa de Publicar
+Name[sv]=Sluta publicera
+Name[ar]=توقيف النشر
+Name[pl]=Zatrzymaj publikację
+Name[hr]=Zaustavi objavljivanje
+Exec=u1sdtool --unpublish-file="%f"
+Icon=go-jump
