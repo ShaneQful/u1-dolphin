@@ -30,7 +30,9 @@ class UbuntuOne
       streams.each do |i|
         i.close
       end
-      exec "echo \""+url+"\" | xclip"
+      Open3.popen3 "echo \""+url+"\" | xclip"
+      Open3.popen3 "autocutsel &"
+      exec "autocutsel -s PRIMARY &"
     rescue
       puts "wrong file"
     end

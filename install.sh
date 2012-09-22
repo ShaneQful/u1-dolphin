@@ -10,4 +10,4 @@ spath="$(echo ${path%:*})"
 mkdir -p "$spath"ServiceMenus/UbuntuOne/
 cp * "$spath"ServiceMenus/UbuntuOne/
 rm -rf "$spath"ServiceMenus/Ubuntu\ One/
-kdesudo apt-get install ruby ubuntuone-control-panel-qt xclip
+kdesudo apt-get install ruby ubuntuone-control-panel-qt xclip autocutsel
