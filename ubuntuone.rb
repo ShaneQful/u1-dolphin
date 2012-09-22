@@ -25,11 +25,15 @@ class UbuntuOne
     streams =  Open3.popen3 "u1sdtool --publish-file="+input
     url = streams[1].gets
     puts url
-    url["File is published at "] = ""
-    streams.each do |i|
-      i.close
+    begin
+      url["File is published at "] = ""
+      streams.each do |i|
+        i.close
+      end
+      exec "echo \""+url+"\" | xclip"
+    rescue
+      puts "wrong file"
     end
-    exec "qdbus org.kde.klipper /klipper org.kde.klipper.klipper.setClipboardContents "+url
   end
 end
 
