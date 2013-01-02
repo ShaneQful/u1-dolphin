@@ -34,6 +34,8 @@ Name[sv]=Publicera och kopiera webblänk
 Name[ar]=نشر ونسخ الرابط
 Name[pl]=Opublikuj i skopiuj link do strony
 Name[hr]=Objavi i kopiraj poveznicu
+Name[ru]=Открыть общий доступ и получить ссылку
+Name[pt_BR]=Publicar e Copiar Link da Web
 Exec=ruby ~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb publish_file %F
 Icon=edit-copy
 
@@ -59,5 +61,7 @@ Name[sv]=Sluta publicera
 Name[ar]=توقيف النشر
 Name[pl]=Zatrzymaj publikację
 Name[hr]=Zaustavi objavljivanje
+Name[ru]=Прекратить общий доступ
+Name[pt_BR]=Parar de Publicar
 Exec=u1sdtool --unpublish-file="%f"
 Icon=go-jump

@@ -34,6 +34,8 @@ Name[sv]=Synkronisera denna mapp
 Name[ar]=تزامن هذا المجلد
 Name[pl]=Synchronizuj ten folder
 Name[hr]=Sinkroniziraj ovu mapu
+Name[ru]=Синхронизировать папку
+Name[pt_BR]=Sincronizar Essa Pasta
 Exec=u1sdtool --create-folder="%f"
 #Icon=edit-copy
 
@@ -59,5 +61,7 @@ Name[sv]=Sluta synkronisera denna mapp
 Name[ar]=توقيف تزامن هذا المجلد
 Name[pl]=zatrzymaj synchronizację tego folderu
 Name[hr]=Zaustavi sinkroniziranje ove mape
+Name[ru]=Прекратить синхронизацию папки
+Name[pt_BR]=Parar de Sincronizar Essa Pasta
 Exec=ruby ~/.kde/share/kde4/services/ServiceMenus/UbuntuOne/ubuntuone.rb unsync_folder %F
 #Icon=go-jump
